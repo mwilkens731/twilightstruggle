@@ -60,7 +60,7 @@ const allCards = [
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'Five=Year Plan',
+    name: 'Five-Year Plan',
     side: Sides.US,
     ops: 3,
     location: Locations.IN_DECK,
