@@ -31,10 +31,10 @@ class CardArea extends React.Component{
         </div>
         <br/>
         <div className='row'>
-          <div className='col-xl-6 ml-2'>
+          <div className='col-xl-8'>
             <Select autosize={false} placeholder='Click To Expand...' multi closeOnSelect={false} value={this.state.selectedCards} options={optionize(this.props.cards)} onChange={this.handleSelectionChange} />
           </div>
-          <div className='col-xl-5'>
+          <div className='col-xl-4'>
             <MoveButtons area={this.props.name} move={this.move} />
           </div>
           <br/><br/><br/>

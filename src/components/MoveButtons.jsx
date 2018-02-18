@@ -16,7 +16,7 @@ class MoveButtons extends React.Component{
     return (
       <div className="dropdown">
         <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Move Selected To...
+          Move To...
         </button>
         <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
           {this.props.area !== Locations.DECK &&

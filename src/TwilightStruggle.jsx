@@ -64,14 +64,15 @@ class TwilightStruggle extends Component {
             <CardArea name={Locations.DISCARD} cards={Helpers.get.cardsInLocation(Locations.DISCARD, this.state.allCards)} move={this.move}/>
           </div>
         </div>
+        <br/><br/>
         <div className='row'>
           <div className='col-xs-12 text-center'>
             <button type='button' className='btn btn-primary btn-sm' onClick={this.reshuffle}>Reshuffle</button>
             {!this.state.midWarAdded &&
-              <button type='button' className='btn btn-primary btn-sm' onClick={this.addMidWar}>Add Mid-War</button>
+              <button type='button' className='ml-1 btn btn-primary btn-sm' onClick={this.addMidWar}>Add Mid-War</button>
             }
             {!this.state.lateWarAdded &&
-              <button type='button' className='btn btn-primary btn-sm' onClick={this.addLateWar}>Add Late-War</button>
+              <button type='button' className='ml-1 btn btn-primary btn-sm' onClick={this.addLateWar}>Add Late-War</button>
             }
           </div>
         </div>
