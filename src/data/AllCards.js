@@ -7,266 +7,266 @@ const allCards = [
     name: 'Asia Scoring',
     side: Sides.SCORE,
     ops: 0,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Europe Scoring',
     side: Sides.SCORE,
     ops: 0,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Middle East Scoring',
     side: Sides.SCORE,
     ops: 0,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'CIA Created *',
     side: Sides.US,
     ops: 1,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Containment *',
     side: Sides.US,
     ops: 3,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'East European Unrest',
     side: Sides.US,
     ops: 3,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Defectors',
     side: Sides.US,
     ops: 2,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Duck And Cover',
     side: Sides.US,
     ops: 3,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Five-Year Plan',
     side: Sides.US,
     ops: 3,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Formosan Resolution *',
     side: Sides.US,
     ops: 2,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Independent Reds *',
     side: Sides.US,
     ops: 2,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Marshall Plan *',
     side: Sides.US,
     ops: 4,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'NATO *',
     side: Sides.US,
     ops: 4,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'NORAD *',
     side: Sides.US,
     ops: 3,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Special Relationship',
     side: Sides.US,
     ops: 2,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Truman Doctrine *',
     side: Sides.US,
     ops: 1,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'US/Japan Mutual Defense Pact *',
     side: Sides.US,
     ops: 4,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Arab-Israeli War',
     side: Sides.USSR,
     ops: 2,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Blockade *',
     side: Sides.USSR,
     ops: 1,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'The Cambridge Five',
     side: Sides.USSR,
     ops: 2,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'COMECON *',
     side: Sides.USSR,
     ops: 3,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'De Gaulle Leads France *',
     side: Sides.USSR,
     ops: 3,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Decolonization',
     side: Sides.USSR,
     ops: 2,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'De-Stalinization *',
     side: Sides.USSR,
     ops: 3,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Fidel *',
     side: Sides.USSR,
     ops: 2,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Korean War *',
     side: Sides.USSR,
     ops: 2,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Nasser *',
     side: Sides.USSR,
     ops: 1,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Romanian Abdication *',
     side: Sides.USSR,
     ops: 1,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Socialist Governments',
     side: Sides.USSR,
     ops: 3,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Suez Crisis *',
     side: Sides.USSR,
     ops: 3,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Vietnam Revolts *',
     side: Sides.USSR,
     ops: 2,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Warsaw Pact Formed *',
     side: Sides.USSR,
     ops: 3,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Captured Nazi Scientist *',
     side: Sides.BOTH,
     ops: 1,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Indo-Pakistani War',
     side: Sides.BOTH,
     ops: 2,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Nuclear Test Ban',
     side: Sides.BOTH,
     ops: 4,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Olympic Games',
     side: Sides.BOTH,
     ops: 2,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'Red Scare/Purge',
     side: Sides.BOTH,
     ops: 4,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
     name: 'UN Intervention',
     side: Sides.BOTH,
     ops: 1,
-    location: Locations.IN_DECK,
+    location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
@@ -768,4 +768,26 @@ const allCards = [
   }
 ];
 
+const compare = function(a,b) {
+  if (a.side.sort < b.side.sort){
+    return -1;
+  } else if (b.side.sort < a.side.sort){
+    return 1;
+  } else if (a.name < b.name){
+    return -1;
+  } else if (b.name < a.name){
+    return 1;
+  }
+  return 0;
+};
+
+const optionize = function(cards){
+  let options = [];
+  cards.forEach((card) => {
+    options.push({label: card.name, value: card.name, name: card.name});
+  });
+  return options;
+}
+
+export { compare, optionize };
 export default allCards;
