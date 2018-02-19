@@ -25,14 +25,14 @@ const allCards = [
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'CIA Created *',
+    name: 'CIA Created',
     side: Sides.US,
     ops: 1,
     location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'Containment *',
+    name: 'Containment',
     side: Sides.US,
     ops: 3,
     location: Locations.DECK,
@@ -67,35 +67,35 @@ const allCards = [
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'Formosan Resolution *',
+    name: 'Formosan Resolution',
     side: Sides.US,
     ops: 2,
     location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'Independent Reds *',
+    name: 'Independent Reds',
     side: Sides.US,
     ops: 2,
     location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'Marshall Plan *',
+    name: 'Marshall Plan',
     side: Sides.US,
     ops: 4,
     location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'NATO *',
+    name: 'NATO',
     side: Sides.US,
     ops: 4,
     location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'NORAD *',
+    name: 'NORAD',
     side: Sides.US,
     ops: 3,
     location: Locations.DECK,
@@ -109,14 +109,14 @@ const allCards = [
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'Truman Doctrine *',
+    name: 'Truman Doctrine',
     side: Sides.US,
     ops: 1,
     location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'US/Japan Mutual Defense Pact *',
+    name: 'US/Japan Mutual Defense Pact',
     side: Sides.US,
     ops: 4,
     location: Locations.DECK,
@@ -130,7 +130,7 @@ const allCards = [
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'Blockade *',
+    name: 'Blockade',
     side: Sides.USSR,
     ops: 1,
     location: Locations.DECK,
@@ -144,14 +144,14 @@ const allCards = [
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'COMECON *',
+    name: 'COMECON',
     side: Sides.USSR,
     ops: 3,
     location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'De Gaulle Leads France *',
+    name: 'De Gaulle Leads France',
     side: Sides.USSR,
     ops: 3,
     location: Locations.DECK,
@@ -165,35 +165,35 @@ const allCards = [
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'De-Stalinization *',
+    name: 'De-Stalinization',
     side: Sides.USSR,
     ops: 3,
     location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'Fidel *',
+    name: 'Fidel',
     side: Sides.USSR,
     ops: 2,
     location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'Korean War *',
+    name: 'Korean War',
     side: Sides.USSR,
     ops: 2,
     location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'Nasser *',
+    name: 'Nasser',
     side: Sides.USSR,
     ops: 1,
     location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'Romanian Abdication *',
+    name: 'Romanian Abdication',
     side: Sides.USSR,
     ops: 1,
     location: Locations.DECK,
@@ -207,28 +207,28 @@ const allCards = [
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'Suez Crisis *',
+    name: 'Suez Crisis',
     side: Sides.USSR,
     ops: 3,
     location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'Vietnam Revolts *',
+    name: 'Vietnam Revolts',
     side: Sides.USSR,
     ops: 2,
     location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'Warsaw Pact Formed *',
+    name: 'Warsaw Pact Formed',
     side: Sides.USSR,
     ops: 3,
     location: Locations.DECK,
     stage: Stages.EARLY_WAR
   },
   {
-    name: 'Captured Nazi Scientist *',
+    name: 'Captured Nazi Scientist',
     side: Sides.BOTH,
     ops: 1,
     location: Locations.DECK,
@@ -291,35 +291,35 @@ const allCards = [
     stage: Stages.MID_WAR
   },
   {
-    name: 'Southeast Asia Scoring *',
+    name: 'Southeast Asia Scoring',
     side: Sides.SCORE,
     ops: 0,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.MID_WAR
   },
   {
-    name: 'Alliance For Progress *',
+    name: 'Alliance For Progress',
     side: Sides.US,
     ops: 3,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.MID_WAR
   },
   {
-    name: 'Ask Not What Your Country Can Do For You... *',
+    name: 'Ask Not What Your Country Can Do For You...',
     side: Sides.US,
     ops: 3,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.MID_WAR
   },
   {
-    name: 'Bear Trap *',
+    name: 'Bear Trap',
     side: Sides.US,
     ops: 3,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.MID_WAR
   },
   {
-    name: 'Camp David Accords *',
+    name: 'Camp David Accords',
     side: Sides.US,
     ops: 2,
     location: Locations.NOT_IN_PLAY,
@@ -340,63 +340,63 @@ const allCards = [
     stage: Stages.MID_WAR
   },
   {
-    name: 'John Paul II Elected Pope *',
+    name: 'John Paul II Elected Pope',
     side: Sides.US,
     ops: 2,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.MID_WAR
   },
   {
-    name: 'Kitchen Debates *',
+    name: 'Kitchen Debates',
     side: Sides.US,
     ops: 1,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.MID_WAR
   },
   {
-    name: 'Nixon Plays the China Card *',
+    name: 'Nixon Plays the China Card',
     side: Sides.US,
     ops: 2,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.MID_WAR
   },
   {
-    name: 'Nuclear Subs *',
+    name: 'Nuclear Subs',
     side: Sides.US,
     ops: 2,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.MID_WAR
   },
   {
-    name: 'OAS Founded *',
+    name: 'OAS Founded',
     side: Sides.US,
     ops: 1,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.MID_WAR
   },
   {
-    name: 'Our Man In Tehran *',
+    name: 'Our Man In Tehran',
     side: Sides.US,
     ops: 2,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.MID_WAR
   },
   {
-    name: 'Panama Canal Returned *',
+    name: 'Panama Canal Returned',
     side: Sides.US,
     ops: 1,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.MID_WAR
   },
   {
-    name: 'Puppet Governments *',
+    name: 'Puppet Governments',
     side: Sides.US,
     ops: 2,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.MID_WAR
   },
   {
-    name: 'Sadat Expels Soviets *',
+    name: 'Sadat Expels Soviets',
     side: Sides.US,
     ops: 1,
     location: Locations.NOT_IN_PLAY,
@@ -410,7 +410,7 @@ const allCards = [
     stage: Stages.MID_WAR
   },
   {
-    name: 'Ussuri River Skirmish *',
+    name: 'Ussuri River Skirmish',
     side: Sides.US,
     ops: 3,
     location: Locations.NOT_IN_PLAY,
@@ -424,14 +424,14 @@ const allCards = [
     stage: Stages.MID_WAR
   },
   {
-    name: 'Allende *',
+    name: 'Allende',
     side: Sides.USSR,
     ops: 1,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.MID_WAR
   },
   {
-    name: 'Brezhnev Doctrine *',
+    name: 'Brezhnev Doctrine',
     side: Sides.USSR,
     ops: 3,
     location: Locations.NOT_IN_PLAY,
@@ -445,14 +445,14 @@ const allCards = [
     stage: Stages.MID_WAR
   },
   {
-    name: 'Cultural Revolution *',
+    name: 'Cultural Revolution',
     side: Sides.USSR,
     ops: 3,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.MID_WAR
   },
   {
-    name: 'Flower Power *',
+    name: 'Flower Power',
     side: Sides.USSR,
     ops: 4,
     location: Locations.NOT_IN_PLAY,
@@ -466,7 +466,7 @@ const allCards = [
     stage: Stages.MID_WAR
   },
   {
-    name: 'Lone Gunman *',
+    name: 'Lone Gunman',
     side: Sides.USSR,
     ops: 1,
     location: Locations.NOT_IN_PLAY,
@@ -487,14 +487,14 @@ const allCards = [
     stage: Stages.MID_WAR
   },
   {
-    name: 'Portuguese Empire Crumbles *',
+    name: 'Portuguese Empire Crumbles',
     side: Sides.USSR,
     ops: 2,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.MID_WAR
   },
   {
-    name: 'Quagmire *',
+    name: 'Quagmire',
     side: Sides.USSR,
     ops: 3,
     location: Locations.NOT_IN_PLAY,
@@ -508,21 +508,21 @@ const allCards = [
     stage: Stages.MID_WAR
   },
   {
-    name: 'U2 Incident *',
+    name: 'U2 Incident',
     side: Sides.USSR,
     ops: 3,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.MID_WAR
   },
   {
-    name: 'We Will Bury You *',
+    name: 'We Will Bury You',
     side: Sides.USSR,
     ops: 4,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.MID_WAR
   },
   {
-    name: 'Willy Brandt *',
+    name: 'Willy Brandt',
     side: Sides.USSR,
     ops: 2,
     location: Locations.NOT_IN_PLAY,
@@ -550,14 +550,14 @@ const allCards = [
     stage: Stages.MID_WAR
   },
   {
-    name: 'Cuban Missile Crisis *',
+    name: 'Cuban Missile Crisis',
     side: Sides.BOTH,
     ops: 3,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.MID_WAR
   },
   {
-    name: 'How I Learned To Stop Worrying *',
+    name: 'How I Learned To Stop Worrying',
     side: Sides.BOTH,
     ops: 2,
     location: Locations.NOT_IN_PLAY,
@@ -592,7 +592,7 @@ const allCards = [
     stage: Stages.MID_WAR
   },
   {
-    name: 'SALT Negotiations *',
+    name: 'SALT Negotiations',
     side: Sides.BOTH,
     ops: 3,
     location: Locations.NOT_IN_PLAY,
@@ -606,98 +606,98 @@ const allCards = [
     stage: Stages.MID_WAR
   },
   {
-    name: 'AWACS Sale To Saudis *',
+    name: 'AWACS Sale To Saudis',
     side: Sides.US,
     ops: 3,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.LATE_WAR
   },
   {
-    name: 'Chernobyl *',
+    name: 'Chernobyl',
     side: Sides.US,
     ops: 3,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.LATE_WAR
   },
   {
-    name: 'An Evil Empire *',
+    name: 'An Evil Empire',
     side: Sides.US,
     ops: 3,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.LATE_WAR
   },
   {
-    name: 'The Iron Lady *',
+    name: 'The Iron Lady',
     side: Sides.US,
     ops: 3,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.LATE_WAR
   },
   {
-    name: 'North Sea Oil *',
+    name: 'North Sea Oil',
     side: Sides.US,
     ops: 3,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.LATE_WAR
   },
   {
-    name: 'Reagan Bombs Libya *',
+    name: 'Reagan Bombs Libya',
     side: Sides.US,
     ops: 2,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.LATE_WAR
   },
   {
-    name: 'Solidarity *',
+    name: 'Solidarity',
     side: Sides.US,
     ops: 2,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.LATE_WAR
   },
   {
-    name: 'Soviets Shoot Down KAL-007 *',
+    name: 'Soviets Shoot Down KAL-007',
     side: Sides.US,
     ops: 4,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.LATE_WAR
   },
   {
-    name: 'Star Wars *',
+    name: 'Star Wars',
     side: Sides.US,
     ops: 2,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.LATE_WAR
   },
   {
-    name: 'Tear Down This Wall *',
+    name: 'Tear Down This Wall',
     side: Sides.US,
     ops: 3,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.LATE_WAR
   },
   {
-    name: 'Aldrich Ames Remix *',
+    name: 'Aldrich Ames Remix',
     side: Sides.USSR,
     ops: 3,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.LATE_WAR
   },
   {
-    name: 'Glasnost *',
+    name: 'Glasnost',
     side: Sides.USSR,
     ops: 4,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.LATE_WAR
   },
   {
-    name: 'Iran-Contra Scandal *',
+    name: 'Iran-Contra Scandal',
     side: Sides.USSR,
     ops: 2,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.LATE_WAR
   },
   {
-    name: 'Iranian Hostage Crisis *',
+    name: 'Iranian Hostage Crisis',
     side: Sides.USSR,
     ops: 3,
     location: Locations.NOT_IN_PLAY,
@@ -711,42 +711,42 @@ const allCards = [
     stage: Stages.LATE_WAR
   },
   {
-    name: 'Marine Barracks Bombing *',
+    name: 'Marine Barracks Bombing',
     side: Sides.USSR,
     ops: 2,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.LATE_WAR
   },
   {
-    name: 'Ortega Elected In Nicaragua *',
+    name: 'Ortega Elected In Nicaragua',
     side: Sides.USSR,
     ops: 2,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.LATE_WAR
   },
   {
-    name: 'Pershing II Deployed *',
+    name: 'Pershing II Deployed',
     side: Sides.USSR,
     ops: 3,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.LATE_WAR
   },
   {
-    name: 'The Reformer *',
+    name: 'The Reformer',
     side: Sides.USSR,
     ops: 3,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.LATE_WAR
   },
   {
-    name: 'Yuri and Samantha *',
+    name: 'Yuri and Samantha',
     side: Sides.USSR,
     ops: 2,
     location: Locations.NOT_IN_PLAY,
     stage: Stages.LATE_WAR
   },
   {
-    name: 'Iran-Iraq War *',
+    name: 'Iran-Iraq War',
     side: Sides.BOTH,
     ops: 2,
     location: Locations.NOT_IN_PLAY,
@@ -760,7 +760,7 @@ const allCards = [
     stage: Stages.LATE_WAR
   },
   {
-    name: 'Wargames *',
+    name: 'Wargames',
     side: Sides.BOTH,
     ops: 4,
     location: Locations.NOT_IN_PLAY,

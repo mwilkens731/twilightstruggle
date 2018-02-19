@@ -48,6 +48,10 @@ class CardArea extends React.Component{
                   <span className="badge badge-info badge-light">{this.props.cards.length}</span>
                 </li>
                 <li className="list-group-item d-flex justify-content-between align-items-center">
+                  Scoring Cards
+                  <span className="badge badge-info">{Helpers.get.cardsOnSide(Sides.SCORE, this.props.cards).length}</span>
+                </li>
+                <li className="list-group-item d-flex justify-content-between align-items-center">
                   US Events
                   <span className="badge badge-info">{Helpers.get.cardsOnSide(Sides.US, this.props.cards).length}</span>
                 </li>
@@ -58,10 +62,6 @@ class CardArea extends React.Component{
                 <li className="list-group-item d-flex justify-content-between align-items-center">
                   Dual Events
                   <span className="badge badge-info">{Helpers.get.cardsOnSide(Sides.BOTH, this.props.cards).length}</span>
-                </li>
-                <li className="list-group-item d-flex justify-content-between align-items-center">
-                  Scoring Cards
-                  <span className="badge badge-info">{Helpers.get.cardsOnSide(Sides.SCORE, this.props.cards).length}</span>
                 </li>
               </ul>
             </div>
