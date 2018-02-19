@@ -27,7 +27,7 @@ class CardArea extends React.Component{
 
   render(){
     return (
-      <div className='container border border-secondary'>
+      <div className='container'>
         <div className='row'>
           <div className='text-center col-xl-12 mt-2'><strong>{this.props.name}</strong></div>
         </div>
