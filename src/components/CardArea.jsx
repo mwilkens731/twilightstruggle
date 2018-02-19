@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import { optionize } from '../data/AllCards';
 import Select from 'react-select';
 import MoveButtons from './MoveButtons';
+import Sides from '../constants/Sides';
+import Helpers from '../data/Helpers';
 
 class CardArea extends React.Component{
   constructor(props){
@@ -25,9 +27,9 @@ class CardArea extends React.Component{
 
   render(){
     return (
-      <div className='container border border-primary'>
+      <div className='container border border-secondary'>
         <div className='row'>
-          <div className='text-center col-xl-12'><strong>{this.props.name}</strong></div>
+          <div className='text-center col-xl-12 mt-2'><strong>{this.props.name}</strong></div>
         </div>
         <br/>
         <div className='row'>
@@ -37,9 +39,34 @@ class CardArea extends React.Component{
           <div className='col-xl-4'>
             <MoveButtons area={this.props.name} move={this.move} />
           </div>
-          <br/><br/><br/>
+          </div>
+          <div className='row pt-4 pb-4'>
+            <div className='col-xl-12'>
+              <ul className="list-group">
+                <li className="list-group-item list-group-item-primary d-flex justify-content-between align-items-center">
+                  Total Cards
+                  <span className="badge badge-info badge-light">{this.props.cards.length}</span>
+                </li>
+                <li className="list-group-item d-flex justify-content-between align-items-center">
+                  US Events
+                  <span className="badge badge-info">{Helpers.get.cardsOnSide(Sides.US, this.props.cards).length}</span>
+                </li>
+                <li className="list-group-item d-flex justify-content-between align-items-center">
+                  USSR Events
+                  <span className="badge badge-info">{Helpers.get.cardsOnSide(Sides.USSR, this.props.cards).length}</span>
+                </li>
+                <li className="list-group-item d-flex justify-content-between align-items-center">
+                  Dual Events
+                  <span className="badge badge-info">{Helpers.get.cardsOnSide(Sides.BOTH, this.props.cards).length}</span>
+                </li>
+                <li className="list-group-item d-flex justify-content-between align-items-center">
+                  Scoring Cards
+                  <span className="badge badge-info">{Helpers.get.cardsOnSide(Sides.SCORE, this.props.cards).length}</span>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
     );
   }
 }

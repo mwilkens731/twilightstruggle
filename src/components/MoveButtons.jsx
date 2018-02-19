@@ -20,19 +20,19 @@ class MoveButtons extends React.Component{
         </button>
         <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
           {this.props.area !== Locations.DECK &&
-            <a href='#nogo' className="dropdown-item" id={Locations.DECK} onClick={this.handleMove}>Deck</a>
+            <button className="dropdown-item" id={Locations.DECK} onClick={this.handleMove}>Deck</button>
           }
           {this.props.area !== Locations.MY_HAND &&
-            <a href='#nogo' className="dropdown-item" id={Locations.MY_HAND} onClick={this.handleMove}>My Hand</a>
+            <button className="dropdown-item" id={Locations.MY_HAND} onClick={this.handleMove}>My Hand</button>
           }
           {this.props.area !== Locations.OPP_HAND &&
-            <a href='#nogo' className="dropdown-item" id={Locations.OPP_HAND} onClick={this.handleMove}>Opponent Hand</a>
+            <button className="dropdown-item" id={Locations.OPP_HAND} onClick={this.handleMove}>Opponent Hand</button>
           }
           {this.props.area !== Locations.DISCARD &&
-            <a href='#nogo' className="dropdown-item" id={Locations.DISCARD} onClick={this.handleMove}>Discard</a>
+            <button className="dropdown-item" id={Locations.DISCARD} onClick={this.handleMove}>Discard</button>
           }
           {this.props.area !== Locations.RFG &&
-            <a href='#nogo' className="dropdown-item" id={Locations.RFG} onClick={this.handleMove}>Removed From Game</a>
+            <button className="dropdown-item" id={Locations.RFG} onClick={this.handleMove}>Removed From Game</button>
           }
         </div>
       </div>

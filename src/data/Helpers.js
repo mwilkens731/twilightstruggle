@@ -32,6 +32,11 @@ const Helpers = {
       return cards.filter((thisCard) => {
         return thisCard.location === location;
       });
+    },
+    cardsOnSide: function(side, cards){
+      return cards.filter((thisCard) => {
+        return thisCard.side === side;
+      });
     }
   }
 };
