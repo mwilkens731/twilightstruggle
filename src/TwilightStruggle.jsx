@@ -7,6 +7,7 @@ import Helpers from './data/Helpers';
 import 'react-select/dist/react-select.css';
 import Stages from './constants/Stages';
 import PreviousAction from './components/PreviousAction';
+import AllCardsTable from './components/AllCardsTable'
 
 class TwilightStruggle extends Component {
   constructor(props){
@@ -24,15 +25,14 @@ class TwilightStruggle extends Component {
       actions: []
     };
   }
-  
-  //TODO fromLocation not working because dropdown valuea are incoming
-  move(toMove, newLocation){
+
+  move(toMove, fromLocation, newLocation){
     let newCards = Helpers.move.selected(toMove, this.state.allCards, newLocation);
     let newActions = this.state.actions;
     newActions.push({
       type: 'move',
       cards: toMove,
-      fromLocation: toMove[0].location,
+      fromLocation: fromLocation,
       newLocation: newLocation
     });
     this.setState({
@@ -40,10 +40,11 @@ class TwilightStruggle extends Component {
       actions: newActions
     });
   }
-  
+
   undo(action){
     let newCards = [];
     let newStagesAdded = this.state.stagesAdded;
+    console.log(action);
     if(action.type === 'move'){
       newCards = Helpers.move.selected(action.cards, this.state.allCards, action.fromLocation).sort(compare);
     }else{
@@ -58,7 +59,7 @@ class TwilightStruggle extends Component {
       stagesAdded: newStagesAdded
     });
   }
-  
+
   addStage(e){
     let newStagesAdded = this.state.stagesAdded;
     newStagesAdded[e.target.id] = true;
@@ -70,14 +71,14 @@ class TwilightStruggle extends Component {
       actions: newActions
     });
   }
-  
+
   reshuffle(){
     let cardsInDiscard = Helpers.get.cardsInLocation(Locations.DISCARD, this.state.allCards);
     if(cardsInDiscard.length > 0){
         this.move(cardsInDiscard, Locations.DECK);
     }
   }
-  
+
   render() {
     return (
       <div className="container-fluid">
@@ -113,9 +114,16 @@ class TwilightStruggle extends Component {
           </div>
         </div>
         <br/>
-        {this.state.actions.length > 0 && 
-          <PreviousAction action={this.state.actions[this.state.actions.length - 1]} undo={this.undo} />
-        }
+        <div className='row'>
+          <div className='col-xl-6'>
+            {this.state.actions.length > 0 &&
+              <PreviousAction action={this.state.actions[this.state.actions.length - 1]} undo={this.undo} />
+            }
+          </div>
+          <div className='col-xl-6'>
+            <AllCardsTable allCards={this.state.allCards}/>
+          </div>
+        </div>
       </div>
     );
   }

@@ -21,7 +21,7 @@ class CardArea extends React.Component{
   }
 
   move(destination){
-    this.props.move(this.state.selectedCards, destination);
+    this.props.move(this.state.selectedCards, this.props.name, destination);
     this.setState({selectedCards: [] });
   }
 
