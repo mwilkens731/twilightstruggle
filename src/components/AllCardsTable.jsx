@@ -8,6 +8,14 @@ const allCardsTableColumn = [
     Header: 'All Cards',
     columns: [
       {
+        Header: 'Stage',
+        id: 'stage',
+        accessor: 'stage',
+        filterMethod: (filter, row) => {
+          return caseInsensitiveFilter(filter, row);
+        }
+      },
+      {
         Header: 'Side',
         id: 'side',
         accessor: 'side.name',

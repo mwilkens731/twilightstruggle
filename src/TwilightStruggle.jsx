@@ -75,7 +75,7 @@ class TwilightStruggle extends Component {
   reshuffle(){
     let cardsInDiscard = Helpers.get.cardsInLocation(Locations.DISCARD, this.state.allCards);
     if(cardsInDiscard.length > 0){
-        this.move(cardsInDiscard, Locations.DECK);
+        this.move(cardsInDiscard, Locations.DISCARD, Locations.DECK);
     }
   }
 
