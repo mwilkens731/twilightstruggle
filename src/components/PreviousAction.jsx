@@ -15,7 +15,7 @@ class PreviousAction extends React.Component {
   getOtherCardNames(){
     let otherCards = "";
     this.props.action.cards.forEach((card) =>{
-      otherCards += card.name;
+      otherCards += card.name + '\n';
     });
     return otherCards;
   }
@@ -25,14 +25,15 @@ class PreviousAction extends React.Component {
   render(){
     if(this.props.action.type === 'move'){
       let otherCardName = this.getOtherCardNames();
+      console.log('other', otherCardName);
       return (
         <div className='row text-center'>
           <div className='col-xl-12'>
             <span>Previous Action: Moved <strong>{this.props.action.cards[0].name}</strong></span>
               {this.props.action.cards.length > 1 &&
                 <span>
-                  &nbsp;and <a tabIndex='0' role='button' data-toggle="popover" data-trigger="focus" data-content={otherCardName}>
-                        {this.props.action.cards.length - 1} other</a>
+                  &nbsp;and&nbsp;
+                      <a href="#" data-toggle="tooltip" title={otherCardName}>{this.props.action.cards.length - 1} others</a>
                 </span>
               }
             <span>&nbsp;to <strong>{this.props.action.newLocation}</strong></span>
